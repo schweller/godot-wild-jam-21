@@ -3,7 +3,7 @@ on: push
 
 env:
   GODOT_VERSION: 3.3.4
-  EXPORT_NAME: godot-wild-jam-21
+  EXPORT_NAME: blimp
   PROJECT_PATH: ./
   
 jobs:
