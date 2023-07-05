@@ -25,7 +25,7 @@ jobs:
         run: |
           mkdir -v -p build/mac
           cd $PROJECT_PATH
-          godot -v --export "Mac OSX" ../build/mac/$EXPORT_NAME.zip
+          godot -v --export "Mac OSX" ../exports/blimp/mac/$EXPORT_NAME.zip
       - name: Upload Artifact
         uses: actions/upload-artifact@v1
         with:
